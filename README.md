@@ -34,6 +34,8 @@ Bien évidemment, nous avons 2 consumers (un qui consomme les phrases et l'autre
     - Utilisateur : admin
     - Mot de passe : admin
 
+## Schéma fonctionnement
+![Schéma](./screenshots/schema.png)
 
 ## Structure du projet
 ```bash
