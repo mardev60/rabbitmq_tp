@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq_tp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "produce": "ts-node src/producers/producer.ts",
+    "consume": "ts-node src/consumers/consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.14.6",
+    "amqplib": "^0.10.4",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5"
+  }
+}
